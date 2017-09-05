@@ -1,0 +1,17 @@
+{
+  "remoteAppConfig": {
+    "loginType": "process",
+    "cmd": "node",
+    "args": [
+      "<%= transformAppsDir %>/powwowmantis/server/start.js",
+      "--sessionID",
+      ":sessionID"
+    ]
+  },
+  "appData": {
+    "appType": "local",
+    "appZip": "<%= staticStorage %>powwowmantis/client.zip",
+    "sessionCheck": false,
+    "smartuxApp": "<%= staticStorage %>powwowmantis/smartuxApp.json"
+  }
+}
