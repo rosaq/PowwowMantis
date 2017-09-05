@@ -45,7 +45,8 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".button[value=\"Login\"]"
     }
   },
   "connect": []
