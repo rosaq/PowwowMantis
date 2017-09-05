@@ -10,7 +10,8 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "[name=\"html\"]"
     },
     "password": {
       "type": "string",
