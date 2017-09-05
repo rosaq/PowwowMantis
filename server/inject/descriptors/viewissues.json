@@ -22,20 +22,25 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 9,
+            "selectIndex": 10,
             "control": "property.innerText"
           },
           "status": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 8,
+            "control": "property.innerText"
           },
           "severity": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 7
           },
           "assignedto": {
             "type": "string",
