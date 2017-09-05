@@ -6,6 +6,11 @@
       "selector": ".subtle[href]",
       "control": "exists",
       "selectContains": "Assigned to Me"
+    },
+    "viewissueslink": {
+      "type": "action",
+      "selector": "a[href*='view_all_bug']",
+      "control": "action.link"
     }
   },
   "connect": []
