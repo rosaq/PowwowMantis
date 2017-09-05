@@ -49,13 +49,17 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 8
+            "selectIndex": 8,
+            "control": "property.innerText"
           },
           "updated": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 9,
+            "control": "property.innerText"
           }
         }
       },
