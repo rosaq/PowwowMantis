@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "6e6c3285",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlrquin"
+  "creatorId": "gdlrquin",
+  "id": "powwowmantis",
+  "previewImageURL": "/previews/6e6c3285-powwowmantis/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/rosaq/PowwowMantis",
+  "creatorName": "Rosa Quintero"
 }
