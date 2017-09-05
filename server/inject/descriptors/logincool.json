@@ -11,7 +11,8 @@
           "submit"
         ]
       },
-      "selector": "[name=\"html\"]"
+      "selector": "[name=\"username\"]",
+      "control": "text"
     },
     "password": {
       "type": "string",
