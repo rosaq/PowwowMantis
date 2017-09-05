@@ -22,8 +22,8 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "logincool",
-      "name": "Login-Cool",
+      "id": "login",
+      "name": "Login",
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "logincool"
