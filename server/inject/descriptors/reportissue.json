@@ -20,7 +20,7 @@
     "isreportissue": {
       "type": "identifier",
       "selector": ".form-title",
-      "control": "exists",
+      "control": "property.innerText",
       "selectContains": "Enter Report Details"
     }
   },
