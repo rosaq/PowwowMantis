@@ -19,8 +19,9 @@
     },
     "isreportissue": {
       "type": "identifier",
-      "selector": "html",
-      "control": "property.innerText"
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": [],
