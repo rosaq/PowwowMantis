@@ -19,14 +19,12 @@
             </div>
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.2">
-                    <ion-radio class="radio-button" data-comp-id="radio.1">optSeverity</ion-radio>
+                    <ion-radio class="radio-button" data-comp-id="radio.1"
+                        ng-model="data.severity.selected" ng-repeat="item in data.severity.options"
+                        ng-value="item">{{item.label}}</ion-radio>
                 </div>
-                <div class="col" data-comp-id="column.3">
-                    <ion-radio class="radio-button" data-comp-id="radio.2">Medium</ion-radio>
-                </div>
-                <div class="col" data-comp-id="column.4">
-                    <ion-radio class="radio-button" data-comp-id="radio.3">High</ion-radio>
-                </div>
+                <div class="col" data-comp-id="column.3"></div>
+                <div class="col" data-comp-id="column.4"></div>
             </div>
             <div class="row" data-comp-id="row.3">
                 <div class="col" data-comp-id="column.5">

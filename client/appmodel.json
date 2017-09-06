@@ -142,7 +142,10 @@
         "type": "string"
       },
       "severity": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }
