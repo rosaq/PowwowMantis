@@ -14,5 +14,25 @@
       "label": "Option2",
       "value": "Option2"
     }
+  },
+  "severity": {
+    "options": [
+      {
+        "label": "Min",
+        "value": "Min"
+      },
+      {
+        "label": "Medium",
+        "value": "medium"
+      },
+      {
+        "label": "High",
+        "value": "high"
+      }
+    ],
+    "selected": {
+      "label": "Min",
+      "value": "Min"
+    }
   }
 }
