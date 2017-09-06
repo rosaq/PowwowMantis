@@ -8,10 +8,14 @@
       "control": "select"
     },
     "severity": {
-      "type": "select"
+      "type": "select",
+      "selector": "[name=\"severity\"]",
+      "control": "radio"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     },
     "isreportissue": {
       "type": "identifier",
