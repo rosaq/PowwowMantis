@@ -4,7 +4,7 @@
   "properties": {
     "category": {
       "type": "select",
-      "selector": "[name=\"category_id\"]",
+      "selector": ".select[name=\"category_id\"]",
       "control": "select"
     },
     "severity": {
