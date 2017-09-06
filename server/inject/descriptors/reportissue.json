@@ -19,7 +19,7 @@
     },
     "isreportissue": {
       "type": "identifier",
-      "selector": "[name=\"report_bug_form\"]",
+      "selector": ".form[name=\"report_bug_form\"]",
       "control": "exists"
     },
     "createissue": {
