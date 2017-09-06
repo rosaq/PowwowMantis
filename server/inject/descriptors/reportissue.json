@@ -25,7 +25,7 @@
     "createissue": {
       "type": "action",
       "selector": ".button[type=\"submit\"]",
-      "control": "attrib.onclick"
+      "control": "action.button"
     }
   },
   "connect": [
