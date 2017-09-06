@@ -73,6 +73,11 @@
       "selector": ".floatleft",
       "control": "exists",
       "selectContains": "Viewing Issues"
+    },
+    "reportissue": {
+      "type": "action",
+      "selector": "a[hef*='bug_report_page']",
+      "control": "action.link"
     }
   },
   "connect": [
