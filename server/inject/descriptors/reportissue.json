@@ -42,6 +42,5 @@
       "action": "createissue"
     }
   ],
-  "selector": ".form-title",
-  "selectContains": "Enter Report Details"
+  "selector": ".form[name=\"report_bug_form\"]"
 }
