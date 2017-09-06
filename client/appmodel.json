@@ -138,11 +138,17 @@
       "category": {
         "type": "select"
       },
-      "severity": {
-        "type": "select"
-      },
       "description": {
         "type": "string"
+      },
+      "severityminor": {
+        "type": "boolean"
+      },
+      "severitymedium": {
+        "type": "boolean"
+      },
+      "severityhigh": {
+        "type": "boolean"
       }
     }
   }
