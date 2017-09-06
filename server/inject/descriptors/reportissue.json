@@ -21,11 +21,6 @@
       "type": "identifier",
       "selector": ".button[value=\"Submit Report\"]",
       "control": "exists"
-    },
-    "createissue": {
-      "type": "action",
-      "selector": ".button[value=\"Submit Report\"]",
-      "control": "exists"
     }
   },
   "connect": [
@@ -36,10 +31,6 @@
       "screens": [
         "reportissue"
       ]
-    },
-    {
-      "match": [],
-      "action": "createissue"
     }
   ]
 }
