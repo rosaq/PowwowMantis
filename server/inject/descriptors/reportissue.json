@@ -23,7 +23,9 @@
       "control": "exists"
     },
     "createissue": {
-      "type": "action"
+      "type": "action",
+      "selector": ".button[value=\"Submit Report\"]",
+      "control": "exists"
     }
   },
   "connect": [
