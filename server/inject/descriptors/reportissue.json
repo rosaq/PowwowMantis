@@ -4,7 +4,7 @@
   "properties": {
     "category": {
       "type": "select",
-      "selector": ".select[name=\"category_id\"]",
+      "selector": "[name=\"category_id\"]",
       "control": "select"
     },
     "severity": {
@@ -41,6 +41,5 @@
       "match": [],
       "action": "createissue"
     }
-  ],
-  "selector": ".form[name=\"report_bug_form\"]"
+  ]
 }
