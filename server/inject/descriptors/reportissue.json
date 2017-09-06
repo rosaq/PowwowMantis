@@ -19,7 +19,7 @@
     },
     "isreportissue": {
       "type": "identifier",
-      "selector": ".form[name=\"report_bug_form\"]",
+      "selector": ".button[value=\"Submit Report\"]",
       "control": "exists"
     },
     "createissue": {
