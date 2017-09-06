@@ -76,7 +76,7 @@
     },
     "reportissue": {
       "type": "action",
-      "selector": "a[hef*='bug_report_page']",
+      "selector": "a[href*='bug_report_page']",
       "control": "action.link"
     }
   },
