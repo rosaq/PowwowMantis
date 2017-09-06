@@ -21,6 +21,11 @@
       "type": "identifier",
       "selector": ".button[value=\"Submit Report\"]",
       "control": "exists"
+    },
+    "createissue": {
+      "type": "action",
+      "selector": ".button[type=\"submit\"]",
+      "control": "attrib.onclick"
     }
   },
   "connect": [
