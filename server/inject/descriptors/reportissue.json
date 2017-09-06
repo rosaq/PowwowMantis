@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "comment": "reportissue",
+  "properties": {
+    "category": {
+      "type": "select"
+    },
+    "severity": {
+      "type": "select"
+    },
+    "description": {
+      "type": "string"
+    },
+    "isreportissue": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "property.innerText"
+    }
+  },
+  "connect": [],
+  "selector": ".form-title",
+  "selectContains": "Enter Report Details"
+}
